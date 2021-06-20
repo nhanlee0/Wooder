@@ -1,0 +1,27 @@
+// css button, title, icon, elements...
+@mixin tith2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@mixin butmore {
+    text-decoration: none;
+    color: #000;
+    font-size:13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@mixin invert {
+    filter: invert(100%);
+}
+
+@mixin inbe {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background : #bea67c;
+    display: inline-block;
+}

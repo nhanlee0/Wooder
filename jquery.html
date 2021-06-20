@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" type="text/css" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/font.css">
+</head>
+
+<body>
+    <section class="tabs">
+        <h2>Tab</h2>
+        <div class="container">
+            <ul class="tab__nav">
+                <li class="active">Điện thoại</li>
+                <li>Đồng hồ</li>
+                <li>Tablet</li>
+            </ul>
+            <div class="tab__content">
+                <div class="tab__panel active">
+                    <div class="list-product">
+                        <div class="picture"><img src="img/vsmart.jpg" alt=""></div>
+                        <p class="detail">Vsmart Star 5</p>
+                        <p class="number">2.890.000₫</p>
+                    </div>
+                    <div class="list-product">
+                        <div class="picture"><img src="img/vivo.jpg" alt=""></div>
+                        <p class="detail">Vivo Y51</p>
+                        <p class="number">2.890.000₫</p>
+                    </div>
+                    <div class="list-product">
+                        <div class="picture"><img src="img/ssa32.jpg" alt=""></div>
+                        <p class="detail">Samsung Galaxy A32</p>
+                        <p class="number">6.690.000₫</p>
+                    </div>
+                    <div class="list-product">
+                        <div class="picture"><img src="img/oppoa15.jpg" alt=""></div>
+                        <p class="detail">OPPO A15</p>
+                        <p class="number">3.190.000₫</p>
+                    </div>
+                </div>
+                <div class="tab__panel">
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/wat1.jpg" alt=""></div>
+                        <p class="detail">Watch Active 2</p>
+                        <p class="number">4.990.000₫</p>
+
+                    </div>
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/wat2.jpg" alt=""></div>
+                        <p class="detail">Samsung Galaxy Fit2</p>
+                        <p class="number">890.000₫</p>
+
+                    </div>
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/wat3.jpg" alt=""></div>
+                        <p class="detail">Apple Watch SE</p>
+                        <p class="number">8.890.000₫</p>
+
+                    </div>
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/wat4.jpg" alt=""></div>
+                        <p class="detail">Apple Watch 41mm</p>
+                        <p class="number">5.800.000₫</p>
+
+                    </div>
+                </div>
+                <div class="tab__panel">
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/ta1.jpg" alt=""></div>
+                        <p class="detail">Samsung Galaxy Tab A8</p>
+                        <p class="number">3.690.000₫</p>
+
+                    </div>
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/ta2.jpg" alt=""></div>
+                        <p class="detail">iPad Pro 12 Wifi Cellular</p>
+                        <p class="number">31.090.000₫</p>
+
+                    </div>
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/ta3.jpg" alt=""></div>
+                        <p class="detail">iPad Pro 11 inch Wifi Cellular</p>
+                        <p class="number">25.190.000₫</p>
+
+                    </div>
+                    <div class="list-product">
+
+                        <div class="picture"><img src="img/ta4.jpg" alt=""></div>
+                        <p class="detail">iPad Pro 11 inch Wifi Cellular</p>
+                        <p class="number">21.190.000₫</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="form">
+        <h2>Form Contact</h2>
+        <form id="form-contact">
+            <div class="form-group">
+                <label>Họ và tên</label>
+                <input type="text" name="nameForm" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Địa chỉ email</label>
+                <input type="text" name="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Số điện thoại</label>
+                <input type="number" name="telephone" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Nội dung </label>
+                <textarea class="form-control" name="content"> </textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btnContact">Liên hệ</button>
+            </div>
+        </form>
+
+
+    </section>
+
+    <section>
+        <h2 class="tagsH2">Tags</h2>
+        <ul class="tags">
+            <li class="addedTag">CFD<span onclick="$(this).parent().remove();" class="tagRemove">x</span><input
+                    type="hidden" name="tags[]" value="Tab"></li>
+
+            <li class="addedTag">JS<span onclick="$(this).parent().remove();" class="tagRemove">x</span><input
+                    type="hidden" name="tags[]" value="Tags"></li>
+
+            <li class="addedTag">Jquery<span onclick="$(this).parent().remove();" class="tagRemove">x</span><input
+                    type="hidden" name="tags[]" value="Form"></li>
+            <li class="tagAdd taglist">
+                <input type="text" id="search-field">
+            </li>
+        </ul>
+    </section>
+    <script src="dest/jsmain.min.js"></script>
+    <script src="dest/main.js"></script>
+
+
+</body>
+
+</html>
